@@ -1,0 +1,12 @@
+#!/bin/bash
+
+g++ -g -O0 -fPIC -std=c++20 -Wall -Wextra -Wno-unused-parameter -o wlp4gen wlp4gen.cc 
+
+g++ -g -O0 -fPIC -std=c++20 -Wall -Wextra -Wno-unused-parameter -o wlp4parse wlp4parse.cc 
+
+g++ -g -O0 -fPIC -std=c++20 -Wall -Wextra -Wno-unused-parameter -o wlp4scan wlp4scan.cc 
+g++ -g -O0 -fPIC -std=c++20 -Wall -Wextra -Wno-unused-parameter -o wlp4type wlp4type.cc 
+
+
+
+

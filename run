@@ -1,0 +1,15 @@
+#!/bin/bash
+
+FILENAME_PREFIX="$1"
+
+# --- Frontend Steps (Scan, Parse, Type-check) ---
+./wlp4scan < "${FILENAME_PREFIX}.prog" | ./wlp4parse | ./wlp4type > "${FILENAME_PREFIX}.wlp4ti" \
+  || { echo "Error: Frontend (scan/parse/type) failed for ${FILENAME_PREFIX}.prog"; exit 1; }
+
+# --- Code Generation Step ---
+./wlp4gen < "${FILENAME_PREFIX}.wlp4ti" > "${FILENAME_PREFIX}.asm" \
+  || { echo "Error: Assembly generation with wlp4gen failed for ${FILENAME_PREFIX}.wlp4ti"; exit 1; }
+
+# --- Display Final Output ---
+cat "${FILENAME_PREFIX}.asm"
+
