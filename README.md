@@ -2,7 +2,7 @@
 
 ## Introduction to WLP4
 
-WLP4 (pronounced *“Wool P Four”*) is a restricted subset of C++ whose name stands for **“Waterloo, Language, Plus, Pointers, Plus, Procedures.”** The language supports core imperative programming constructs, including procedures, integers, pointers, arrays, conditional statements, and while loops. WLP4 is taught as part of the University of Waterloo course **CS 241: Foundations of Sequential Programs**.
+WLP4 is a restricted subset of C++ whose name stands for **“Waterloo, Language, Plus, Pointers, Plus, Procedures.”** The language supports core imperative programming constructs, including procedures, integers, pointers, arrays, conditional statements, and while loops. WLP4 is taught as part of the University of Waterloo course **CS 241: Foundations of Sequential Programs**.
 
 For additional background on WLP4, see:
 - [WLP4 Programming Language Tutorial](https://www.student.cs.uwaterloo.ca/~cs241/wlp4/WLP4tutorial.html)
