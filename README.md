@@ -14,7 +14,7 @@ For additional background on WLP4, see:
 
 This project implements a full **WLP4 compiler**, including lexical analysis, parsing, context-sensitive analysis, and code generation. The compiler translates valid WLP4 source programs into **MIPS assembly language**, following the formal specifications provided by the course.
 
-The source code for this project is not publicly available. If you would like to view the implementation, please message me on **GitHub** or email me at [rminocha@uwaterloo.ca](mailto:rminocha@uwaterloo.ca).
+The source code for this project is not publicly available. If you would like to view the implementation, please message me on **GitHub** or email me at [rminocha@uwaterloo.ca](mailto:trmmicha@uwaterloo.ca).
 
 ---
 
